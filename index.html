@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моето Портфолио</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: #333;
+        }
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            text-align: center;
+            max-width: 350px;
+            width: 90%;
+        }
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            background: #eee;
+            border-radius: 50%;
+            margin: 0 auto 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 3rem;
+        }
+        h1 { margin: 0; font-size: 1.5rem; color: #2d3436; }
+        p { color: #636e72; margin-bottom: 1.5rem; }
+        .links { display: flex; flex-direction: column; gap: 10px; }
+        .link {
+            text-decoration: none;
+            background: #f1f2f6;
+            padding: 10px;
+            border-radius: 10px;
+            color: #2d3436;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .link:hover { background: #764ba2; color: white; }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <div class="profile-img">👩‍💻</div>
+    <h1>Твоето Име</h1>
+    <p>Младши Програмист / QA / Твоята цел</p>
+    
+    <div class="links">
+        <a href="#" class="link">Проекти</a>
+        <a href="#" class="link">LinkedIn Профил</a>
+        <a href="mailto:your-email@example.com" class="link">Свържи се с мен</a>
+    </div>
+    
+    <div style="margin-top: 20px; font-size: 0.8rem; color: #999;">
+        Built with HTML & CSS
+    </div>
+</div>
+
+</body>
+</html>
